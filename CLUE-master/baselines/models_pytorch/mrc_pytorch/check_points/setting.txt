@@ -1,0 +1,31 @@
+------------ Options -------------
+gpu_ids: 0,1
+train_epochs: 2
+n_batch: 4
+lr: 3e-05
+dropout: 0.1
+clip_norm: 1.0
+warmup_rate: 0.1
+schedule: warmup_linear
+weight_decay_rate: 0.01
+seed: [123]
+float16: False
+max_ans_length: 50
+n_best: 20
+eval_epochs: 0.5
+save_best: True
+vocab_size: 21128
+max_seq_length: 512
+train_dir: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\classifier_pytorch\outputs\CRMC2018_output\train_features_512.json
+dev_dir1: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\classifier_pytorch\outputs\CRMC2018_output\dev_examples_512.json
+dev_dir2: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\classifier_pytorch\outputs\CRMC2018_output\dev_features_512.json
+train_file: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\mrc_pytorch\mrc_data\CMRC2018\cmrc2018_train.json
+dev_file: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\mrc_pytorch\mrc_data\CMRC2018\cmrc2018_dev.json
+bert_config_file: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\mrc_pytorch\check_points\prev_trained_model\roberta_wwm_ext_base\bert_config.json
+vocab_file: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\mrc_pytorch\check_points\prev_trained_model\roberta_wwm_ext_base\vocab.txt
+init_restore_dir: C:/Users/96344/Desktop/chinese_L-12_H-768_A-12/chinese_L-12_H-768_A-12/pytorch_model.pth
+checkpoint_dir: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\mrc_pytorch\check_points
+task_name: cmrc2018
+setting_file: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\mrc_pytorch\check_points\setting.txt
+log_file: C:\Users\96344\Desktop\CLUE-master\CLUE-master\baselines\models_pytorch\mrc_pytorch\check_points\log.txt
+-------------- End ----------------
